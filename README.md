@@ -17,9 +17,26 @@
 * **[point](https://processing.org/reference/point_.html)**( *x, y* );
 * **[triangle](https://processing.org/reference/triangle_.html)**( *x1, y1, x2, y2, x3, y3* );
 
+## Image Methods:
+* **[PImage](https://processing.org/reference/PImage.html)** image = **[loadImage](https://processing.org/reference/loadImage_.html)**( *pathOrUrl* );
+* **[PImage](https://processing.org/reference/PImage.html)** image = **[requestImage](https://processing.org/reference/requestImage_.html)**( *url* );
+* image.**[resize](https://processing.org/reference/resize_.html)**( *width, height* );
+* image.**[width](https://processing.org/reference/PImage_width.html)**
+* image.**[height](https://processing.org/reference/PImage_height.html)**
+* image.**[pixels](https://processing.org/reference/PImage_pixels.html)**[]
+* image.**[loadPixels](https://processing.org/reference/PImage_loadPixels_.html)**();
+* image.**[updatePixels](https://processing.org/reference/PImage_updatePixels_.html)**();
+
+## Transformation Methods:
+* **[transform](https://processing.org/reference/transform_.html)**( *x, y* );
+* **[rotate](https://processing.org/reference/rotate_.html)**( *radians* );
+* **[scale](https://processing.org/reference/scale_.html)**( *xPercent, yPercent* );
+* **[radians](https://processing.org/reference/radians_.html)**( *degrees* );
+* **[degrees](https://processing.org/reference/degrees_.html)**( *radians* );
+
 ## Special Variables:
-|Type   |Name                                                                   |Description                                      |
-|-------|-----------------------------------------------------------------------|-------------------------------------------------|
+|Type   |Name                                                                  |Description                                      |
+|-------|----------------------------------------------------------------------|-------------------------------------------------|
 |float  |**[frameCount](https://processing.org/reference/frameCount.html)**    |*Stores the number of frames the program has run*|
 |char   |**[key](https://processing.org/reference/key.html)**                  |*Stores the most recent key pressed*             |
 |boolean|**[keyPressed](https://processing.org/reference/keyPressed.html)**    |*Is a key pressed?*                              |
